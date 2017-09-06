@@ -17,7 +17,7 @@ def dydt(t,y,L):
   
 g = 9.8
 L = 2.2
-theta0 = scipy.pi*5/12 # Ângulo inicial: 20 graus.
+theta0 = scipy.pi*5/12 # Ângulo inicial: 75 graus.
 v0 = 0.0
   
 sol = scipy.integrate.ode(dydt)
